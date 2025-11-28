@@ -5,6 +5,9 @@ export interface Quest {
   objectives: string[];
   rewards: string[];
   category: 'combat' | 'exploration' | 'collection' | 'repair' | 'delivery' | 'other';
+  guideUrl?: string;
+  guideSteps?: string[];
+  tips?: string[];
 }
 
 export const questsByLocation: Record<string, Quest[]> = {
@@ -18,7 +21,19 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Loot 3 containers'
       ],
       rewards: ['1x Rattler III', '80x Medium Ammo'],
-      category: 'exploration'
+      category: 'exploration',
+      guideUrl: 'https://patchcrazy.co.uk/picking-up-the-pieces-quest-arc-raiders/',
+      guideSteps: [
+        'Look for areas marked with loot category icons on your map',
+        'Navigate to the Hydroponic Dome Complex or Dam Battlegrounds',
+        'Find and open 3 containers in the area',
+        'Containers can be found in buildings, rooms, and outdoor areas'
+      ],
+      tips: [
+        'This is a beginner-friendly quest - any containers count',
+        'Look for supply boxes, crates, and lockers',
+        'Complete this early for a solid starting weapon'
+      ]
     },
     {
       id: 'db-2',

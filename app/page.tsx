@@ -206,15 +206,29 @@ export default function Home() {
                     </div>
 
                     {/* Rewards Toggle */}
-                    <button
-                      onClick={() => toggleRewards(quest.id)}
-                      className="text-sm text-orange-400 hover:text-orange-300 font-medium flex items-center gap-1"
-                    >
-                      {showRewards[quest.id] ? '▼' : '▶'} Rewards
-                    </button>
+                    <div className="flex gap-3 items-center flex-wrap">
+                      <button
+                        onClick={() => toggleRewards(quest.id)}
+                        className="text-sm text-orange-400 hover:text-orange-300 font-medium flex items-center gap-1"
+                      >
+                        {showRewards[quest.id] ? '▼' : '▶'} Rewards
+                      </button>
+                      
+                      {quest.guideUrl && (
+                        <a
+                          href={quest.guideUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm text-blue-400 hover:text-blue-300 font-medium flex items-center gap-1"
+                        >
+                          📖 Full Guide
+                        </a>
+                      )}
+                    </div>
 
                     {showRewards[quest.id] && (
                       <div className="mt-2 p-3 bg-gray-900/50 rounded border border-gray-700">
+                        <h5 className="text-sm font-semibold text-green-400 mb-2">Rewards:</h5>
                         <ul className="space-y-1">
                           {quest.rewards.map((reward, idx) => (
                             <li key={idx} className="text-sm text-green-300 flex items-center gap-2">
@@ -223,6 +237,33 @@ export default function Home() {
                             </li>
                           ))}
                         </ul>
+                        
+                        {quest.guideSteps && quest.guideSteps.length > 0 && (
+                          <>
+                            <h5 className="text-sm font-semibold text-blue-400 mt-3 mb-2">Guide Steps:</h5>
+                            <ol className="space-y-1 ml-4">
+                              {quest.guideSteps.map((step, idx) => (
+                                <li key={idx} className="text-sm text-gray-300 list-decimal">
+                                  {step}
+                                </li>
+                              ))}
+                            </ol>
+                          </>
+                        )}
+                        
+                        {quest.tips && quest.tips.length > 0 && (
+                          <>
+                            <h5 className="text-sm font-semibold text-yellow-400 mt-3 mb-2">Tips:</h5>
+                            <ul className="space-y-1">
+                              {quest.tips.map((tip, idx) => (
+                                <li key={idx} className="text-sm text-gray-300 flex items-start gap-2">
+                                  <span className="text-yellow-400 mt-0.5">💡</span>
+                                  <span>{tip}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </>
+                        )}
                       </div>
                     )}
                   </div>
