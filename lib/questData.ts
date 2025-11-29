@@ -111,28 +111,6 @@ export const questsByLocation: Record<string, Quest[]> = {
       ]
     },
     {
-      id: 'db-6',
-      name: 'What Goes Around',
-      location: 'Research and Administration building, Dam Battlegrounds',
-      objectives: [
-        'Destroy any ARC enemy using a Fireball Burner'
-      ],
-      rewards: ['3x Blaze Grenade', '2x Noisemaker Cans', 'Backpack Attachment (Cosmetic)'],
-      category: 'combat',
-      guideSteps: [
-        'First, destroy a Fireball enemy to obtain a Fireball Burner weapon',
-        'Equip the Fireball Burner (flamethrower-type weapon)',
-        'Find any ARC enemy near the Research and Administration building',
-        'Use the Fireball Burner to destroy the ARC enemy',
-        'The kill must be with the Fireball Burner to count'
-      ],
-      tips: [
-        'Fireball Burner is a close-range weapon - get near your target',
-        'Fireballs are common ARC enemies that drop the burner',
-        'Any ARC enemy counts for the kill, pick an easy target like a Wasp'
-      ]
-    },
-    {
       id: 'db-4',
       name: 'Safe Passage',
       location: 'Research and Administration Building, Dam Battlegrounds',
@@ -172,23 +150,24 @@ export const questsByLocation: Record<string, Quest[]> = {
     {
       id: 'db-6',
       name: 'What Goes Around',
-      location: 'Research and Administration building, Dam Battlegrounds',
+      location: 'Any',
       objectives: [
-        'Destroy any ARC enemy using a Fireball Burner'
+        'Destroy any ARC using a Fireball Burner'
       ],
-      rewards: ['3x Blaze Grenade', '2x Noisemaker Cans', 'Backpack Attachment (Cosmetic)'],
+      rewards: ['Cobalt (Junior Color)', '3x Blaze Grenade', '2x Noisemaker', '5x Blue Light Stick'],
       category: 'combat',
       guideSteps: [
         'Obtain a Fireball Burner weapon (dropped by destroyed Fireball enemies)',
         'Equip the Fireball Burner in your weapon slot',
-        'Deploy to Dam Battlegrounds and find any ARC enemy',
+        'Deploy to any map and find any ARC enemy',
         'Use the Fireball Burner to destroy the enemy',
         'Return to claim your rewards'
       ],
       tips: [
         'Fireball Burners are dropped by Fireball ARC enemies',
         'Any ARC enemy type works - choose weaker ones like Wasps',
-        'The Fireball Burner uses special ammo, so conserve shots'
+        'The Fireball Burner uses special ammo, so conserve shots',
+        'Cobalt Junior Color cosmetic is a nice reward'
       ]
     },
     {
@@ -196,22 +175,23 @@ export const questsByLocation: Record<string, Quest[]> = {
       name: 'Greasing Her Palms',
       location: 'Water Treatment Control building, Dam Battlegrounds',
       objectives: [
-        'On Dam Battlegrounds, visit the Locked Room in the Water Treatment Control building',
         'On Spaceport, scope out the rocket thrusters outside the Rocket Assembly',
+        'On Dam Battlegrounds, visit the Locked Room in the Water Treatment Control building',
         'On Buried City, visit the barricaded area on floor 6 of the Space Travel Building'
       ],
-      rewards: ['1x Lure Grenade Blueprint', '3x Speaker Component', '3x Electrical Components'],
+      rewards: ['Lure Grenade Blueprint', 'Speaker Component', 'Electrical Components'],
       category: 'exploration',
       guideSteps: [
+        'Deploy to Spaceport first and navigate to the Rocket Assembly area',
+        'Find and inspect the rocket thrusters outside',
         'Deploy to Dam Battlegrounds and find the Water Treatment Control building',
         'Locate the Locked Room (may need a key)',
-        'Deploy to Spaceport and navigate to the Rocket Assembly area',
-        'Find and inspect the rocket thrusters outside',
         'Deploy to Buried City and go to the Space Travel Building',
         'Climb to floor 6 and find the barricaded area'
       ],
       tips: [
         'This quest requires visiting all three maps',
+        'Quest objectives are done in Spaceport → Dam → Buried City order',
         'Mark locations on your map for future reference',
         'You may need keys or tools to access some areas'
       ]
@@ -552,13 +532,14 @@ export const questsByLocation: Record<string, Quest[]> = {
       name: 'Water Troubles',
       location: 'Red Lake Berm, Dam Battlegrounds',
       objectives: [
-        'Locate the Flood Access Tunnel under the Red Lake Balcony',
+        'In One Round Locate the Flood Access Tunnel under the Red Lake Balcony',
         'Find the intake to the District\'s Water Supply',
         'Sample the water'
       ],
       rewards: ['3x Mechanical Components', '3x Simple Gun Parts', '3x Steel Spring'],
       category: 'exploration',
       guideSteps: [
+        'IMPORTANT: Complete all steps in one raid without extracting',
         'Navigate to the Red Lake Berm area in Dam Battlegrounds',
         'Find the Red Lake Balcony landmark',
         'Look for the Flood Access Tunnel entrance underneath or near the balcony',
@@ -567,6 +548,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Interact to take a water sample and complete the quest'
       ],
       tips: [
+        'Must complete all objectives in single raid',
         'The tunnel entrance may be partially hidden',
         'Bring a light source for dark tunnel areas',
         'Watch for environmental hazards in the tunnel'
@@ -911,20 +893,23 @@ export const questsByLocation: Record<string, Quest[]> = {
       name: 'Marked for Death',
       location: 'Su Durante Warehouses, Buried City',
       objectives: [
-        'Reach the Su Durante Warehouses in the Outskirts in Buried City'
+        'Reach the Su Durante Warehouses in the Outskirts in Buried City',
+        'Search for Tian Wen\'s cache near the Warehouses',
+        'Follow the clues'
       ],
-      rewards: ['1x Shotgun Choke II', '1x Angled Grip II'],
+      rewards: ['Shotgun Choke II', 'Angled Grip II'],
       category: 'exploration',
       guideSteps: [
         'Deploy to Buried City',
         'Navigate to the Outskirts area',
         'Locate the Su Durante Warehouses',
-        'Enter or reach the warehouse location to complete'
+        'Search around the warehouses for Tian Wen\'s cache',
+        'Find and follow any clues left behind'
       ],
       tips: [
-        'Simple exploration quest - just reach the location',
+        'Look for quest markers or highlighted objects',
         'Great weapon attachments as rewards',
-        'Mark on map for future reference'
+        'Check around the exterior and interior of warehouses'
       ]
     },
     {
@@ -932,18 +917,21 @@ export const questsByLocation: Record<string, Quest[]> = {
       name: 'Market Correction',
       location: 'Marano Station, Buried City',
       objectives: [
-        'Locate the cache near Marano Station'
+        'In One Round Locate the cache near Marano Station',
+        'Sabotage the cache'
       ],
       rewards: ['1x Silencer II', '1x Extended Light Mag I', '1x Compensator I'],
       category: 'exploration',
       guideSteps: [
+        'IMPORTANT: Complete in one raid without extracting',
         'Deploy to Buried City',
         'Navigate to Marano Station',
         'Search the area around the station for a hidden cache',
-        'Look for containers or stash boxes marked as quest items',
-        'Interact with the cache to complete'
+        'Once found, sabotage the cache (interact with it)',
+        'Quest completes after sabotage'
       ],
       tips: [
+        'Must be done in single raid',
         'Cache may be hidden behind objects or in corners',
         'Check alleys and side areas near the station',
         'Excellent weapon mod rewards'

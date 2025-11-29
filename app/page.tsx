@@ -283,7 +283,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-black/40 border-t border-gray-700 py-6 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400 text-sm">
-          <p>ARC Raiders Quest Tracker v1.3.2 • {totalQuests} Total Quests</p>
+          <p>ARC Raiders Quest Tracker v1.3.4 • {totalQuests} Total Quests</p>
           <p className="mt-2">Data sources: <a href="https://arcraiders.wiki/wiki/Quests" className="text-orange-400 hover:text-orange-300" target="_blank" rel="noopener noreferrer">ARC Raiders Wiki</a> • <a href="https://patchcrazy.co.uk/all-arc-raiders-quest-list-rewards-objectives-and-locations/" className="text-orange-400 hover:text-orange-300 ml-2" target="_blank" rel="noopener noreferrer">PatchCrazy.co.uk</a></p>
           <p className="mt-1 text-gray-500 text-xs">Last updated: November 29, 2025</p>
         </div>
