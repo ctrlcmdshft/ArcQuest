@@ -133,21 +133,6 @@ export const questsByLocation: Record<string, Quest[]> = {
       ]
     },
     {
-      id: 'db-5',
-      name: 'The Trifecta',
-      location: 'Testing Annex building, Dam Battlegrounds',
-      objectives: [
-        'Destroy a Hornet',
-        'Get a Hornet Driver for Shani',
-        'Destroy a Snitch',
-        'Get a Snitch Scanner for Shani',
-        'Destroy a Wasp',
-        'Get a Wasp Driver for Shani'
-      ],
-      rewards: ['1x Dam Control Tower Key', '2x Defibrillator', '1x Raider Hatch Key'],
-      category: 'combat'
-    },
-    {
       id: 'db-6',
       name: 'What Goes Around',
       location: 'Any',
