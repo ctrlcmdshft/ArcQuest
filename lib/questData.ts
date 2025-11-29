@@ -22,7 +22,6 @@ export const questsByLocation: Record<string, Quest[]> = {
       ],
       rewards: ['1x Rattler III', '80x Medium Ammo'],
       category: 'exploration',
-      guideUrl: 'https://patchcrazy.co.uk/picking-up-the-pieces-quest-arc-raiders/',
       guideSteps: [
         'Look for areas marked with loot category icons on your map',
         'Navigate to the Hydroponic Dome Complex or Dam Battlegrounds',
