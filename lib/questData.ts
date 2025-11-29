@@ -108,6 +108,9 @@ export const questsByLocation: Record<string, Quest[]> = {
         'These enemies spawn around the Testing Annex area',
         'Components automatically drop when enemies are destroyed',
         'Hornets are tougher - bring good weapons and healing',
+        'Complete all three in one round for efficiency'
+      ]
+    },
     {
       id: 'db-6',
       name: 'What Goes Around',
@@ -175,7 +178,19 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Destroy any ARC enemy using a Fireball Burner'
       ],
       rewards: ['3x Blaze Grenade', '2x Noisemaker Cans', 'Backpack Attachment (Cosmetic)'],
-      category: 'combat'
+      category: 'combat',
+      guideSteps: [
+        'Obtain a Fireball Burner weapon (dropped by destroyed Fireball enemies)',
+        'Equip the Fireball Burner in your weapon slot',
+        'Deploy to Dam Battlegrounds and find any ARC enemy',
+        'Use the Fireball Burner to destroy the enemy',
+        'Return to claim your rewards'
+      ],
+      tips: [
+        'Fireball Burners are dropped by Fireball ARC enemies',
+        'Any ARC enemy type works - choose weaker ones like Wasps',
+        'The Fireball Burner uses special ammo, so conserve shots'
+      ]
     },
     {
       id: 'db-7',
@@ -212,7 +227,22 @@ export const questsByLocation: Record<string, Quest[]> = {
         'On Spaceport, search for anything significant in Bilguun\'s Hideout, next to the Container Storage'
       ],
       rewards: ['1x Muzzle Brake II', '1x Vertical Grip II', '1x Stable Stock II'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Deploy to Buried City first',
+        'Navigate to the Parking Garage and find the Raider Camp beneath it',
+        'Search 2 containers in the camp area',
+        'Deploy to Dam Battlegrounds',
+        'Go to the South Swamp Outpost and search for quest items',
+        'Deploy to Spaceport',
+        'Find Container Storage area and locate Bilguun\'s Hideout next to it',
+        'Search the hideout for significant items'
+      ],
+      tips: [
+        'This quest spans all three maps',
+        'Make note of locations for future quests',
+        'Look for highlighted interact prompts in each location'
+      ]
     },
     {
       id: 'db-9',
@@ -256,7 +286,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Shutdown the EMP trap'
       ],
       rewards: ['5x Medium Gun Parts', '3x Advanced Mechanical Components'],
-      category: 'repair'
+      category: 'repair',
+      guideSteps: [
+        'Navigate to Victory Ridge in Dam Battlegrounds',
+        'Locate the old EMP trap device',
+        'Find and disable the first power switch nearby',
+        'Locate and disable the second power switch',
+        'Find and disable the third power switch',
+        'Return to the EMP trap and shut it down completely'
+      ],
+      tips: [
+        'The switches are spread around the EMP trap location',
+        'Look for electrical boxes or control panels',
+        'Clear any ARC enemies first for safety'
+      ]
     },
     {
       id: 'db-11',
@@ -268,7 +311,19 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Return the helmet to the memorial'
       ],
       rewards: ['5x Simple Gun Parts', '5x Duct Tape', '5x Magnet'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Travel to Formicai Hills in Dam Battlegrounds',
+        'Find the wreckage site (look for crashed vehicles or debris)',
+        'Search the area around the wreckage for the helmet',
+        'Locate the memorial site in the area',
+        'Place the helmet at the memorial to complete'
+      ],
+      tips: [
+        'The helmet should be near crashed vehicles',
+        'The memorial is marked with a distinct structure',
+        'This is a peaceful quest - no combat required'
+      ]
     },
     {
       id: 'db-12',
@@ -280,7 +335,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Deliver Major Aiva\'s Patch to Celeste'
       ],
       rewards: ['6x Crude Explosives', '2x Processor', '1x Music Box'],
-      category: 'delivery'
+      category: 'delivery',
+      guideSteps: [
+        'Deploy to Dam Battlegrounds and head to Victory Ridge',
+        'Look for the broken highway structure',
+        'Find the hideout underneath the highway',
+        'Search for and collect the battle plans',
+        'Also locate Major Aiva\'s Patch in the area',
+        'Return to Speranza and deliver the patch to Celeste'
+      ],
+      tips: [
+        'The hideout entrance may be obscured by debris',
+        'Both items are in the same general area',
+        'Watch for ARC patrols near Victory Ridge'
+      ]
     },
     {
       id: 'db-13',
@@ -292,7 +360,19 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Hoist the flag on the small platform overlooking the red lake'
       ],
       rewards: ['Aviator (Outfit)', '3x Mod Components', '5x Duct Tape'],
-      category: 'other'
+      category: 'other',
+      guideSteps: [
+        'Navigate to the Formicai Outpost in Dam Battlegrounds',
+        'Search buildings and structures for the flag item',
+        'Once you have the flag, look for a small platform',
+        'The platform should overlook the distinctive red lake',
+        'Interact with the flagpole to hoist the flag'
+      ],
+      tips: [
+        'Rewards include a full Aviator outfit cosmetic',
+        'The red lake is a visual landmark - use it to find the platform',
+        'This is a memorable location worth visiting'
+      ]
     },
     {
       id: 'db-14',
@@ -304,7 +384,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Deliver 2 Journals to Celeste'
       ],
       rewards: ['1x Magnetic Accelerator', '3x Heavy Gun Parts', '1x Exodus Modules'],
-      category: 'delivery'
+      category: 'delivery',
+      guideSteps: [
+        'Deploy to Dam Battlegrounds',
+        'First, head to the South Swamp Outpost',
+        'Search the outpost buildings for the first journal',
+        'Next, travel to the northern outpost near Red Lakes',
+        'Retrieve the second journal from this location',
+        'Return to Speranza and deliver both journals to Celeste'
+      ],
+      tips: [
+        'Mark both outposts on your map',
+        'Journals are usually in sleeping quarters or desk areas',
+        'High-value rewards make this quest worthwhile'
+      ]
     },
     {
       id: 'db-15',
@@ -315,7 +408,19 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Deliver Major Aiva\'s Mementos to Tian Wen'
       ],
       rewards: ['1x Hullcracker Blueprint'],
-      category: 'delivery'
+      category: 'delivery',
+      guideSteps: [
+        'Navigate to the Ruby Residences (apartments northwest of The Dam)',
+        'Search through the apartment rooms',
+        'Look for a footlocker or storage container',
+        'Collect Major Aiva\'s Mementos from inside',
+        'Return to Speranza and deliver the mementos to Tian Wen'
+      ],
+      tips: [
+        'Ruby Residences are marked on the Dam Battlegrounds map',
+        'Check bedrooms and personal quarters',
+        'The Hullcracker Blueprint is a valuable reward'
+      ]
     },
     {
       id: 'db-16',
@@ -351,7 +456,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'On Buried City, install a LiDAR Scanner on top of the Galleria sign'
       ],
       rewards: ['1x Vita Spray', '5x Yellow Light Stick'],
-      category: 'repair'
+      category: 'repair',
+      guideSteps: [
+        'Obtain 3 LiDAR Scanners (check quest requirements or craft them)',
+        'Deploy to Dam Battlegrounds and climb to the top of the Control Tower',
+        'Install the first LiDAR Scanner at the marked location',
+        'Deploy to Spaceport and find the Communications Tower',
+        'Install the second scanner at the tower',
+        'Deploy to Buried City and locate the Galleria sign',
+        'Climb to the top and install the third scanner'
+      ],
+      tips: [
+        'Bring all 3 scanners with you to avoid multiple trips',
+        'Watch for fall damage when climbing tall structures',
+        'Clear ARC enemies before installation for safety'
+      ]
     },
     {
       id: 'db-18',
@@ -363,7 +482,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Complete the antenna installation on the roof'
       ],
       rewards: ['Buried City Town Hall Key', 'Raider Hatch Key', '3x Jolt Mine'],
-      category: 'repair'
+      category: 'repair',
+      guideSteps: [
+        'Navigate to the Pattern House in The Dam area',
+        'Enter the building and search for the Power Switch',
+        'Activate the Power Switch to restore power',
+        'Find the access point to reach the roof',
+        'Complete the antenna installation on the rooftop',
+        'Interact with the antenna to finish the quest'
+      ],
+      tips: [
+        'Look for electrical panels or circuit breakers for the power switch',
+        'The roof access may be stairs, ladder, or exterior climb',
+        'Great rewards including two valuable keys'
+      ]
     },
     {
       id: 'db-19',
@@ -374,7 +506,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Locate Lab 1 on the upper floor above the reception'
       ],
       rewards: ['3x Advanced Mechanical Components', '3x Medium Gun Parts', '10x Steel Spring'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Deploy to Dam Battlegrounds',
+        'Navigate to the Research & Administration building',
+        'Enter through the main entrance and find the reception area',
+        'Locate stairs or elevator to reach the upper floor',
+        'Find Lab 1 - look for room labels or signs',
+        'Interact with or search Lab 1 to complete the objective'
+      ],
+      tips: [
+        'The building may have multiple floors to explore',
+        'Lab 1 should be clearly marked with signage',
+        'Excellent crafting materials as rewards'
+      ]
     },
     {
       id: 'db-20',
@@ -386,7 +531,22 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Upload the data to the computer terminal in any Field Depot'
       ],
       rewards: ['3x Advanced Mechanical Components', '3x Heavy Gun Parts', '5x Canister'],
-      category: 'other'
+      category: 'other',
+      guideSteps: [
+        'IMPORTANT: Complete all steps in a single raid without extracting',
+        'Deploy to Dam Battlegrounds',
+        'Travel to the Hydroponic Dome Complex',
+        'Search the domes for a data archive terminal',
+        'Interact with the archive to download/obtain the data',
+        'Navigate to any Field Depot on the map',
+        'Find the computer terminal at the Field Depot',
+        'Upload the data to complete the quest before extracting'
+      ],
+      tips: [
+        'Must be done in one continuous raid - do not extract between steps',
+        'Plan your route from Hydroponic Dome to nearest Field Depot',
+        'Bring supplies for a longer raid'
+      ]
     },
     {
       id: 'db-21',
@@ -398,7 +558,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Sample the water'
       ],
       rewards: ['3x Mechanical Components', '3x Simple Gun Parts', '3x Steel Spring'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Navigate to the Red Lake Berm area in Dam Battlegrounds',
+        'Find the Red Lake Balcony landmark',
+        'Look for the Flood Access Tunnel entrance underneath or near the balcony',
+        'Enter the tunnel and follow it to the water supply intake',
+        'Locate the water sampling point',
+        'Interact to take a water sample and complete the quest'
+      ],
+      tips: [
+        'The tunnel entrance may be partially hidden',
+        'Bring a light source for dark tunnel areas',
+        'Watch for environmental hazards in the tunnel'
+      ]
     },
     {
       id: 'db-22',
@@ -434,7 +607,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Investigate any suspicious objects'
       ],
       rewards: ['5x Steel Spring', '5x Duct Tape', '1x Mod Components'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Deploy to Dam Battlegrounds and head to The Dam area',
+        'Find the Water Treatment Building',
+        'Exit toward the Swamp area',
+        'Locate the Flood Spill Intake structure',
+        'Search the area for suspicious or unusual objects',
+        'Interact with the object to investigate and complete'
+      ],
+      tips: [
+        'The contamination source will be visually distinct',
+        'Check near pipes, tanks, or discharge points',
+        'This quest connects to the Water Troubles storyline'
+      ]
     },
     {
       id: 'db-24',
@@ -448,7 +634,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Enable the power via the power switch underneath the stairs'
       ],
       rewards: ['Radio Renegade (Outfit - Helmet)', '5x Medium Gun Parts', '3x Advanced Mechanical Components'],
-      category: 'repair'
+      category: 'repair',
+      guideSteps: [
+        'Navigate to the Power Generation Complex near The Dam',
+        'Enter the building and locate the Generator Room',
+        'Interact with the generator to repair it (may need components)',
+        'Find the Ventilation Shaft elsewhere in the building',
+        'Look for stairs in the area',
+        'Go underneath the stairs to find the power switch',
+        'Activate the power switch to complete the quest'
+      ],
+      tips: [
+        'Bring repair materials if required',
+        'The power switch is easily missed under stairs',
+        'Includes Radio Renegade helmet cosmetic'
+      ]
     },
     {
       id: 'db-25',
@@ -459,7 +659,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Deliver the Possibly Toxic Plant to Lance'
       ],
       rewards: ['1x Vita Shot', '5x Antiseptic'],
-      category: 'delivery'
+      category: 'delivery',
+      guideSteps: [
+        'Deploy to Dam Battlegrounds',
+        'Navigate to the Old Battleground area',
+        'Find the Baron Husk landmark (large destroyed ARC unit)',
+        'Search the ground around the Baron Husk for unusual plants',
+        'Collect the Possibly Toxic Plant',
+        'Return to Speranza and deliver the plant to Lance'
+      ],
+      tips: [
+        'The plant should stand out with unique coloring',
+        'Baron Husk is a major landmark - hard to miss',
+        'Medical rewards useful for survival'
+      ]
     }
   ],
   'Spaceport': [
@@ -499,7 +712,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Find and turn the valve in the tunnels under Spaceport'
       ],
       rewards: ['Radio Renegade (Outfit - Blue)', 'Spaceport Trench Tower Key', '3x Synthesized Fuel'],
-      category: 'repair'
+      category: 'repair',
+      guideSteps: [
+        'Deploy to Spaceport and look for tunnel entrances',
+        'Tunnels are typically found near launch towers or underground access points',
+        'Enter the tunnel system',
+        'Navigate through the tunnels searching for a valve',
+        'Once located, interact with the valve to turn it',
+        'Return to surface to complete the quest'
+      ],
+      tips: [
+        'Excellent rewards including full Blue Radio Renegade outfit',
+        'Bring a light source for tunnel exploration',
+        'The valve should be clearly marked or larger than normal pipes'
+      ]
     },
     {
       id: 'sp-3',
@@ -511,7 +737,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Search for the records'
       ],
       rewards: ['1x Heavy Shield', '1x Tactical Mk. 3 (Healing)', '3x Adrenaline Shot'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Deploy to Spaceport',
+        'Navigate to the Departure Building',
+        'Enter and search for signage indicating medical facilities',
+        'Locate the Medical Exam Room',
+        'Search desks, filing cabinets, and shelves for medical records',
+        'Collect the records to complete the objective'
+      ],
+      tips: [
+        'Medical exam rooms typically have examination tables and equipment',
+        'Records are often in filing cabinets or on desks',
+        'Great defensive rewards with Heavy Shield'
+      ]
     },
     {
       id: 'sp-4',
@@ -524,7 +763,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Restore the power'
       ],
       rewards: ['Bag (Radio Renegade Variant)', '5x Wires', '5x Explosive Compound', '5x Oil'],
-      category: 'repair'
+      category: 'repair',
+      guideSteps: [
+        'Deploy to Spaceport',
+        'Head south toward the Checkpoint area',
+        'Locate the Electrical Substation building',
+        'Search for signs of the missing engineer (notes, equipment, etc.)',
+        'Find the fuse box or panel',
+        'Install the fuse in the appropriate slot',
+        'Activate the power switch to restore power'
+      ],
+      tips: [
+        'You may need to bring a fuse or find one nearby',
+        'Look for the engineer\'s tools or ID as clues',
+        'Includes Radio Renegade bag cosmetic'
+      ]
     },
     {
       id: 'sp-5',
@@ -535,7 +788,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Locate and upload the blackmail files to Celeste'
       ],
       rewards: ['2x Heavy Gun Parts', '2x Medium Gun Parts'],
-      category: 'other'
+      category: 'other',
+      guideSteps: [
+        'Deploy to Spaceport',
+        'Navigate to the North Trench Tower',
+        'Enter the tower and search for a computer or data storage',
+        'Locate the blackmail files (may be in a specific room or terminal)',
+        'Interact with the terminal to upload the files to Celeste',
+        'Quest completes after successful upload'
+      ],
+      tips: [
+        'Look for offices or security rooms with computers',
+        'The files may be marked as quest items',
+        'Useful gun parts for weapon crafting'
+      ]
     },
     {
       id: 'sp-6',
@@ -546,7 +812,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Reach the top of Control Tower A6'
       ],
       rewards: ['1x Snap Hook'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'IMPORTANT: Must complete in one raid without extracting',
+        'Deploy to Spaceport',
+        'Navigate to Control Tower A6',
+        'Find the stairs or elevator inside',
+        'Climb to the very top floor of the tower',
+        'Reach the topmost point to complete the objective'
+      ],
+      tips: [
+        'Must be done without leaving the raid',
+        'Tall tower - be prepared for a climb',
+        'Watch for fall damage on the way down',
+        'Snap Hook is useful for traversal'
+      ]
     }
   ],
   'Buried City': [
@@ -586,7 +866,22 @@ export const questsByLocation: Record<string, Quest[]> = {
         'On Dam Battlegrounds, search 2 containers in the Research & Administration building\'s medical room'
       ],
       rewards: ['1x Banana Backpack Charm (Cosmetic)', '3x Defibrillator', '2x Vita Shot'],
-      category: 'collection'
+      category: 'collection',
+      guideSteps: [
+        'Deploy to Spaceport first',
+        'Go to Departure Building and find the exam rooms',
+        'Search 2 containers in the exam rooms',
+        'Deploy to Buried City',
+        'Navigate to the Hospital and search 3 containers',
+        'Deploy to Dam Battlegrounds',
+        'Go to Research & Administration building',
+        'Find the medical room and search 2 containers'
+      ],
+      tips: [
+        'Spans all three maps - plan accordingly',
+        'Medical containers usually have red cross markings',
+        'Includes fun Banana backpack charm cosmetic'
+      ]
     },
     {
       id: 'bc-3',
@@ -597,7 +892,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Deliver the ESR Analyzer to Lance'
       ],
       rewards: ['1x Tactical Mk. 3 (Healing)', '1x Surge Shield Recharger'],
-      category: 'delivery'
+      category: 'delivery',
+      guideSteps: [
+        'Deploy to Buried City',
+        'Find any Pharmacy location on the map',
+        'Search inside the pharmacy for the ESR Analyzer',
+        'Check shelves, counters, and storage areas',
+        'Extract with the analyzer',
+        'Return to Speranza and deliver it to Lance'
+      ],
+      tips: [
+        'ESR Analyzer is medical equipment - check lab areas',
+        'Any pharmacy works - choose the closest one',
+        'Good healing item rewards'
+      ]
     },
     {
       id: 'bc-4',
@@ -607,7 +915,18 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Reach the Su Durante Warehouses in the Outskirts in Buried City'
       ],
       rewards: ['1x Shotgun Choke II', '1x Angled Grip II'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Deploy to Buried City',
+        'Navigate to the Outskirts area',
+        'Locate the Su Durante Warehouses',
+        'Enter or reach the warehouse location to complete'
+      ],
+      tips: [
+        'Simple exploration quest - just reach the location',
+        'Great weapon attachments as rewards',
+        'Mark on map for future reference'
+      ]
     },
     {
       id: 'bc-5',
@@ -617,7 +936,19 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Locate the cache near Marano Station'
       ],
       rewards: ['1x Silencer II', '1x Extended Light Mag I', '1x Compensator I'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Deploy to Buried City',
+        'Navigate to Marano Station',
+        'Search the area around the station for a hidden cache',
+        'Look for containers or stash boxes marked as quest items',
+        'Interact with the cache to complete'
+      ],
+      tips: [
+        'Cache may be hidden behind objects or in corners',
+        'Check alleys and side areas near the station',
+        'Excellent weapon mod rewards'
+      ]
     },
     {
       id: 'bc-6',
@@ -628,7 +959,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Rewire the solar panel using 3 Wires'
       ],
       rewards: ['1x Extended Shotgun Mag II', '1x Extended Medium Mag II'],
-      category: 'repair'
+      category: 'repair',
+      guideSteps: [
+        'Obtain 3 Wires before starting',
+        'Deploy to Buried City, Old Town area',
+        'Navigate south-west of the Southern Station',
+        'Look for blue tarps on rooftops - visual landmark',
+        'Climb to the secluded roof terrace',
+        'Find the solar panel',
+        'Use 3 Wires to rewire the panel'
+      ],
+      tips: [
+        'Blue tarps make the location easier to spot',
+        'Bring 3 Wires with you to save time',
+        'Extended magazines are valuable rewards'
+      ]
     },
     {
       id: 'bc-7',
@@ -640,7 +985,22 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Plant a bug on the weapon cache'
       ],
       rewards: ['Burletta Blueprint', '3x Mechanical Components', '3x Simple Gun Parts'],
-      category: 'delivery'
+      category: 'delivery',
+      guideSteps: [
+        'Deploy to Buried City, Industrial Zone',
+        'Navigate to the Outskirts area',
+        'Find the Gas Station landmark',
+        'Locate Tian Wen\'s weapon cache near the station',
+        'Retrieve the Burletta weapon from the cache',
+        'Find the rival weapon cache location',
+        'Deliver the Burletta to the rival cache',
+        'Plant the bug device on the cache to complete'
+      ],
+      tips: [
+        'The bug may be given to you or need to be crafted',
+        'Burletta Blueprint is a valuable reward',
+        'Be stealthy to avoid detection by rivals'
+      ]
     },
     {
       id: 'bc-8',
@@ -655,7 +1015,23 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Deliver Fertilizer to Tian Wen'
       ],
       rewards: ['1x Il Toro I', '40x Shotgun Ammo', '1x Shotgun Choke II'],
-      category: 'delivery'
+      category: 'delivery',
+      guideSteps: [
+        'Deploy to Buried City',
+        'Navigate to the Grandioso Apartments',
+        'Climb to the rooftop of the apartments',
+        'Search for and collect Fertilizer on the roof',
+        'Travel to Piazza Roma',
+        'Find the broken rooftop gardens',
+        'Search for and collect the Water Pump',
+        'Extract and return to Speranza',
+        'Deliver both items to Tian Wen'
+      ],
+      tips: [
+        'Both items are on rooftops - be prepared to climb',
+        'Can collect both in one raid',
+        'Il Toro shotgun is a solid reward'
+      ]
     },
     {
       id: 'bc-9',
@@ -694,7 +1070,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Repair the solar panels using 5 Wires and 2 Batteries'
       ],
       rewards: ['5x Blue Light Stick', '3x Antiseptic', '5x Durable Cloth'],
-      category: 'repair'
+      category: 'repair',
+      guideSteps: [
+        'Obtain 5 Wires and 2 Batteries before starting',
+        'Deploy to Buried City',
+        'Navigate to the Grandioso Apartments',
+        'Search the nearby area for flooded solar panels',
+        'Locate the damaged solar panel installation',
+        'Use the 5 Wires and 2 Batteries to repair the panels'
+      ],
+      tips: [
+        'Bring materials with you to complete in one visit',
+        'Flooded areas may be low-lying or near water damage',
+        'Useful survival supplies as rewards'
+      ]
     },
     {
       id: 'bc-11',
@@ -706,7 +1095,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Deliver the Experimental Seed Sample to Celeste'
       ],
       rewards: ['Succulent (Charm)', '1,000 Raider Coins', '3x Advanced Mechanical Components', '3x Heavy Gun Parts', '3x Canister'],
-      category: 'delivery'
+      category: 'delivery',
+      guideSteps: [
+        'Deploy to Buried City',
+        'Navigate to the Research Building',
+        'Look for a room with large windows or high elevation - "great view"',
+        'This could be an upper floor or corner office with panoramic windows',
+        'Search for the seed vault in that room',
+        'Collect the Experimental Seed Sample',
+        'Return to Speranza and deliver to Celeste'
+      ],
+      tips: [
+        '"Room with a great view" hints at upper floors with windows',
+        'Check observation rooms or executive offices',
+        'Excellent rewards including 1,000 coins'
+      ]
     },
     {
       id: 'bc-12',
@@ -719,7 +1122,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Inspect the grave'
       ],
       rewards: ['Radio Renegade (Outfit - Goggles)', '3x Noisemaker', '5x Blue Light Stick', '1x Rosary'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Deploy to Buried City',
+        'Navigate to the Abandoned Highway area',
+        'Locate the camp site on or near the highway',
+        'Search the camp for signs of survivors (personal items, notes, etc.)',
+        'Look for red markers - follow them sequentially',
+        'The red markers will lead you to a grave',
+        'Interact with the grave to complete the quest'
+      ],
+      tips: [
+        'Red markers are visual guides - follow them carefully',
+        'This is a somber story quest about fallen survivors',
+        'Radio Renegade Goggles are a nice cosmetic reward'
+      ]
     },
     {
       id: 'bc-13',
@@ -744,7 +1161,22 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Document the pharmacist\'s skills'
       ],
       rewards: ['1x Defibrillator', '1x Surge Shield Recharger', '3x Sterilized Bandage'],
-      category: 'other'
+      category: 'other',
+      guideSteps: [
+        'Deploy to Buried City',
+        'Find the collapsed highway landmark',
+        'Locate Arbusto Farmacia pharmacy near the highway',
+        'Search for personal items relating to hobbies (sports equipment, books, etc.)',
+        'Find family photos or documents',
+        'Look for items showing taste (music, art, decorations)',
+        'Find certificates or tools showing professional skills',
+        'Interact with each item type to document'
+      ],
+      tips: [
+        'This is a narrative quest - explore thoroughly',
+        'Check living quarters, office, and storage areas',
+        'Each category needs at least one item documented'
+      ]
     },
     {
       id: 'bc-15',
@@ -755,7 +1187,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Locate the Dead Drop inside the courtyard'
       ],
       rewards: ['2x Advanced Electrical Components', '4x Speaker Component'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Deploy to Buried City, Old Town area',
+        'Find the Santa Maria Houses residential complex',
+        'Enter the building complex',
+        'Locate the courtyard (interior or exterior)',
+        'Search for a hidden Dead Drop container',
+        'Interact with the Dead Drop to complete'
+      ],
+      tips: [
+        'Dead Drops are usually hidden in corners or behind objects',
+        'Check planters, benches, or architectural features in courtyards',
+        'Advanced electrical components are valuable'
+      ]
     },
     {
       id: 'bc-16',
@@ -769,8 +1214,23 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Deliver 3 books to Apollo'
       ],
       rewards: ['Buried City Town Hall Key'],
-      category: 'delivery'
-    }
+      category: 'delivery',
+      guideSteps: [
+        'Deploy to Buried City',
+        'Navigate to the City Center area',
+        'Find the Library building',
+        'Search bookshelves for a romance genre book',
+        'Find a detective/mystery genre book',
+        'Locate an adventure genre book',
+        'Extract with all 3 books',
+        'Return to Speranza and deliver to Apollo'
+      ],
+      tips: [
+        'Books may have genre labels or distinctive covers',
+        'Check different sections of the library',
+        'Town Hall Key is extremely valuable for accessing locked areas'
+      ]
+    },
   ],
   'The Blue Gate': [
     {
@@ -784,7 +1244,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Nail down the roof plates on the Raider structure near Trapper\'s Glade'
       ],
       rewards: ['3x Shrapnel Grenade', '3x Snap Blast Grenade', '3x Heavy Fuze Grenade'],
-      category: 'repair'
+      category: 'repair',
+      guideSteps: [
+        'Deploy to The Blue Gate map',
+        'Navigate to Ridgeline and stabilize the observation deck',
+        'Travel to Olive Grove area and enable the comms terminal',
+        'Go north of Data Vault to find the church',
+        'Climb to the church roof and rotate the satellite dishes',
+        'Head to Trapper\'s Glade and find the Raider structure',
+        'Nail down the loose roof plates to complete'
+      ],
+      tips: [
+        'Multiple locations - plan your route efficiently',
+        'May need tools or materials for repairs',
+        'Great explosive rewards for combat'
+      ]
     },
     {
       id: 'bg-2',
@@ -797,7 +1271,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Investigate the unknown ARC machines'
       ],
       rewards: ['1x Zipline', '3x Barricade Kit', '3x Doorblockers'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Deploy to The Blue Gate',
+        'Navigate to the Highway Collapse area',
+        'Use photo mode or camera item to take a photo of the collapsed highway',
+        'Travel to the Broken Earth region',
+        'Follow visible destruction (debris, craters, damaged structures)',
+        'The trail will lead to unknown ARC machines',
+        'Approach and investigate the machines to complete'
+      ],
+      tips: [
+        'Make sure photo is taken at the correct location',
+        'Trail of destruction is visible environmental storytelling',
+        'Zipline reward is great for traversal'
+      ]
     },
     {
       id: 'bg-3',
@@ -810,7 +1298,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Inspect the communications device'
       ],
       rewards: ['1x Looting Mk. 2', '1x Medium Shield'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Deploy to The Blue Gate',
+        'Navigate to the Barren Clearing area',
+        'Search for clues about who destroyed the ARC units',
+        'Look for weapons, markings, or other evidence',
+        'Find and inspect the Adorned Wreckage (decorated or modified debris)',
+        'Locate a communications device nearby',
+        'Inspect the device to complete the investigation'
+      ],
+      tips: [
+        'This is a detective-style quest - look carefully',
+        'Adorned Wreckage may have unique decorations or paint',
+        'Looting Mk. 2 improves loot quality'
+      ]
     },
     {
       id: 'bg-4',
