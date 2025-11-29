@@ -44,7 +44,19 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Get 3 ARC Alloy for Shani'
       ],
       rewards: ['3x Sterilized Bandage', '1x Light Shield', 'Black Backpack Cosmetic (Hiker Color)'],
-      category: 'combat'
+      category: 'combat',
+      guideSteps: [
+        'Deploy to Dam Battlegrounds',
+        'Look for any ARC enemies (Wasps, Hornets, Fireballs, etc.)',
+        'Destroy 3 ARC enemies using any weapons',
+        'Collect ARC Alloy from the destroyed enemies',
+        'Return to Shani to deliver the 3 ARC Alloy'
+      ],
+      tips: [
+        'ARC enemies drop alloy automatically when destroyed',
+        'Smaller enemies like Wasps are easier targets for beginners',
+        'Use cover to avoid taking damage from ARC weapons'
+      ]
     },
     {
       id: 'db-3',
@@ -55,8 +67,8 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Obtain 1 Battery'
       ],
       rewards: ['1x Tactical MK.1', '3x Adrenaline Shot'],
-      category: 'collection'
-    },
+      category: 'collection',
+      guideSteps: [
     {
       id: 'db-4',
       name: 'Safe Passage',
@@ -65,6 +77,57 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Destroy 2 ARC enemies using any explosive grenade'
       ],
       rewards: ['5x Li\'l Smoke Grenade', '3x Shrapnel Grenade', '3x Barricade Kit'],
+      category: 'combat',
+      guideSteps: [
+    {
+      id: 'db-5',
+      name: 'The Trifecta',
+      location: 'Testing Annex building, Dam Battlegrounds',
+      objectives: [
+        'Destroy a Hornet',
+        'Get a Hornet Driver for Shani',
+        'Destroy a Snitch',
+        'Get a Snitch Scanner for Shani',
+        'Destroy a Wasp',
+        'Get a Wasp Driver for Shani'
+      ],
+      rewards: ['1x Dam Control Tower Key', '2x Defibrillator', '1x Raider Hatch Key'],
+      category: 'combat',
+      guideSteps: [
+        'Head to the Testing Annex building in Dam Battlegrounds',
+        'Hunt down and destroy a Hornet (flying ARC enemy)',
+        'Loot the Hornet Driver component from its remains',
+        'Find and destroy a Snitch (small scanning drone)',
+        'Collect the Snitch Scanner component',
+        'Locate and destroy a Wasp (small flying enemy)',
+        'Collect the Wasp Driver and return all items to Shani'
+      ],
+      tips: [
+        'These enemies spawn around the Testing Annex area',
+        'Components automatically drop when enemies are destroyed',
+        'Hornets are tougher - bring good weapons and healing',
+    {
+      id: 'db-6',
+      name: 'What Goes Around',
+      location: 'Research and Administration building, Dam Battlegrounds',
+      objectives: [
+        'Destroy any ARC enemy using a Fireball Burner'
+      ],
+      rewards: ['3x Blaze Grenade', '2x Noisemaker Cans', 'Backpack Attachment (Cosmetic)'],
+      category: 'combat',
+      guideSteps: [
+        'First, destroy a Fireball enemy to obtain a Fireball Burner weapon',
+        'Equip the Fireball Burner (flamethrower-type weapon)',
+        'Find any ARC enemy near the Research and Administration building',
+        'Use the Fireball Burner to destroy the ARC enemy',
+        'The kill must be with the Fireball Burner to count'
+      ],
+      tips: [
+        'Fireball Burner is a close-range weapon - get near your target',
+        'Fireballs are common ARC enemies that drop the burner',
+        'Any ARC enemy counts for the kill, pick an easy target like a Wasp'
+      ]
+    },rewards: ['5x Li\'l Smoke Grenade', '3x Shrapnel Grenade', '3x Barricade Kit'],
       category: 'combat'
     },
     {
@@ -102,7 +165,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'On Buried City, visit the barricaded area on floor 6 of the Space Travel Building'
       ],
       rewards: ['1x Lure Grenade Blueprint', '3x Speaker Component', '3x Electrical Components'],
-      category: 'exploration'
+      category: 'exploration',
+      guideSteps: [
+        'Deploy to Dam Battlegrounds and find the Water Treatment Control building',
+        'Locate the Locked Room (may need a key)',
+        'Deploy to Spaceport and navigate to the Rocket Assembly area',
+        'Find and inspect the rocket thrusters outside',
+        'Deploy to Buried City and go to the Space Travel Building',
+        'Climb to floor 6 and find the barricaded area'
+      ],
+      tips: [
+        'This quest requires visiting all three maps',
+        'Mark locations on your map for future reference',
+        'You may need keys or tools to access some areas'
+      ]
     },
     {
       id: 'db-8',
@@ -130,7 +206,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Deliver First Wave Rations to Tian Wen'
       ],
       rewards: ['1x Arpeggio I', '1x Compensator II', '80x Medium Ammo'],
-      category: 'delivery'
+      category: 'delivery',
+      guideSteps: [
+        'Navigate to the Scrapyard area in Dam Battlegrounds',
+        'Find the hallowed grounds landmark',
+        'Search around broken-down vehicles for the First Wave Compass',
+        'Look near cylindrical containers for the First Wave Tape',
+        'Check the Raider camp for First Wave Rations',
+        'Return to Tian Wen and deliver all three items'
+      ],
+      tips: [
+        'Explore thoroughly - items can be easy to miss',
+        'The Scrapyard is full of old vehicles and debris',
+        'Collect all three items before leaving the area'
+      ]
     },
     {
       id: 'db-10',
@@ -213,7 +302,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Obtain a Rocketeer Driver'
       ],
       rewards: ['3x Surge Shield Recharger', '2x Wolfpack'],
-      category: 'combat'
+      category: 'combat',
+      guideSteps: [
+        'Head to the Testing Annex Building in Dam Battlegrounds',
+        'Locate a Rocketeer - a powerful ARC enemy with rocket weapons',
+        'Engage the Rocketeer with strong weapons',
+        'Use cover to avoid rocket attacks',
+        'Destroy the Rocketeer and loot the Rocketeer Driver component'
+      ],
+      tips: [
+        'Rocketeers are dangerous - bring shields and healing items',
+        'Keep moving to dodge rocket projectiles',
+        'Long-range weapons work well against Rocketeers',
+        'The Driver drops automatically upon destruction'
+      ]
     },
     {
       id: 'db-17',
@@ -283,7 +385,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Obtain a Leaper Pulse Unit'
       ],
       rewards: ['1x Radio Renegade (cosmetic)', '1x Burgerboy (cosmetic)', '1x Vulcano III', '40x Shotgun Ammo'],
-      category: 'combat'
+      category: 'combat',
+      guideSteps: [
+        'Navigate to the Research & Administration Building',
+        'Search for a Leaper - an agile ARC enemy that jumps around',
+        'Engage the Leaper with automatic weapons for better tracking',
+        'Destroy the Leaper and collect the Pulse Unit',
+        'Leapers are fast - lead your shots'
+      ],
+      tips: [
+        'Leapers are highly mobile - use weapons with good fire rate',
+        'Shotguns work well at close range when they jump near you',
+        'Try to predict their jump patterns',
+        'Great cosmetic rewards make this quest worthwhile'
+      ]
     },
     {
       id: 'db-23',
@@ -334,7 +449,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Deliver 1 LiDAR Scanners to Shani'
       ],
       rewards: ['1x Dam Testing Annex Key', '3x Zipline', '2x Smoke Grenade'],
-      category: 'delivery'
+      category: 'delivery',
+      guideSteps: [
+        'Deploy to Spaceport and locate the Jiangsu Warehouse',
+        'Find the foreman\'s office inside the warehouse',
+        'Search the office for shipping notes on desks or filing cabinets',
+        'Travel to Control Tower A6',
+        'Climb to the upper floor of the tower',
+        'Locate and collect the LiDAR Scanner',
+        'Return to Shani to deliver the scanner'
+      ],
+      tips: [
+        'The foreman\'s office is usually on the ground floor',
+        'Control Tower A6 is a tall structure - look for stairs or elevators',
+        'The Dam Testing Annex Key reward is valuable for future quests'
+      ]
     },
     {
       id: 'sp-2',
@@ -407,7 +536,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Obtain 1 Great Mullein'
       ],
       rewards: ['3x Adrenaline Shot', '3x Sterilized Bandage', '1x Surge Shield Recharger'],
-      category: 'collection'
+      category: 'collection',
+      guideSteps: [
+        'Navigate to any Pharmacy in Buried City',
+        'Search medical containers and shelves for Antiseptic (need 2)',
+        'Look in medical supply boxes for a Syringe',
+        'Check cabinets and storage for Durable Cloth',
+        'Search for Great Mullein (medicinal plant) in the pharmacy or nearby'
+      ],
+      tips: [
+        'Pharmacies have the highest concentration of medical supplies',
+        'Antiseptic is common in first aid kits',
+        'Great Mullein might be found near herbal medicine sections',
+        'Check multiple rooms if you can\'t find everything in one area'
+      ]
     },
     {
       id: 'bc-2',
@@ -501,7 +643,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Boot the antenna terminal near the Red Tower'
       ],
       rewards: ['1x Anvil III', '40x Heavy Ammo'],
-      category: 'repair'
+      category: 'repair',
+      guideSteps: [
+        'Navigate to the Red Tower in Old Town, Buried City',
+        'Search the surrounding area for a battery cell (check nearby buildings)',
+        'Return to the Red Tower and locate the Generator',
+        'Interact with the Generator to install the battery cell',
+        'Flip the power switch on the Generator',
+        'Find the antenna terminal nearby and interact to boot it up'
+      ],
+      tips: [
+        'The Red Tower is a distinctive landmark in Old Town',
+        'Battery cells are often in electrical rooms or storage areas',
+        'The generator and antenna are close to each other',
+        'Anvil III is a powerful weapon reward'
+      ]
     },
     {
       id: 'bc-10',
@@ -637,7 +793,20 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Search for bee hives around the Olive Grove'
       ],
       rewards: ['1x Advanced Electrical Components', '3x Sensors'],
-      category: 'collection'
+      category: 'collection',
+      guideSteps: [
+        'Deploy to The Blue Gate map',
+        'Navigate to the Olive Grove area (look for olive trees)',
+        'Search around trees and structures for bee hives',
+        'Interact with the bee hives to collect items',
+        'May need to search multiple hives or return to base'
+      ],
+      tips: [
+        'Bee hives are usually hanging from trees or attached to buildings',
+        'The Olive Grove has distinctive vegetation',
+        'Advanced Electrical Components are valuable crafting materials',
+        'This is a peaceful collection quest - no combat required'
+      ]
     },
     {
       id: 'bg-5',
@@ -665,7 +834,23 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Deliver a Flow Controller to Tian Wen'
       ],
       rewards: ['1x Burletta III', '1x Silencer II', '1x Extended Light Mag II', '100x Light Ammo'],
-      category: 'delivery'
+      category: 'delivery',
+      guideSteps: [
+        'Deploy to Stella Montis map',
+        'Navigate to the Sandbox area and find the Rovers',
+        'Use your camera tool to take a photo of a Rover',
+        'Go to the Lobby area and find the Security Checkpoint room',
+        'Search the papers in the Security Checkpoint',
+        'Collect or find a Magnetron and Flow Controller',
+        'Return to Tian Wen and deliver both items'
+      ],
+      tips: [
+        'Rovers are vehicle-like objects in the Sandbox',
+        'Make sure the photo captures the Rover clearly',
+        'Security Checkpoint is near the main entrance/Lobby',
+        'Magnetron and Flow Controller are technical components',
+        'Great weapon and ammo rewards'
+      ]
     },
     {
       id: 'sm-2',
@@ -700,7 +885,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Repair the antenna on the roof of Field Depot'
       ],
       rewards: ['2x Defibrillator'],
-      category: 'repair'
+      category: 'repair',
+      guideSteps: [
+        'Find a Field Depot on any map (marked on map)',
+        'Enter the Field Depot building',
+        'Find stairs or ladder to access the roof',
+        'Locate the damaged antenna on the roof',
+        'Interact with the antenna to repair it (may need materials)',
+        'Complete all steps in a single round'
+      ],
+      tips: [
+        'Field Depots are safe zones marked on your map',
+        'Bring repair materials just in case',
+        'The roof is usually accessible from inside the building',
+        'Must complete in one round without extracting'
+      ]
     },
     {
       id: 'ml-2',
@@ -722,7 +921,21 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Destroy a Turret'
       ],
       rewards: ['Cheer Emote', '1x Stitcher II', '1x Extended Light Mag I'],
-      category: 'combat'
+      category: 'combat',
+      guideSteps: [
+        'Find and destroy a Fireball (ARC enemy with flame attacks)',
+        'Hunt down and destroy a Hornet (flying ARC enemy)',
+        'Locate and destroy a Turret (stationary defensive unit)',
+        'Can complete across multiple rounds and maps',
+        'Each enemy type requires different tactics'
+      ],
+      tips: [
+        'Turrets are easiest - they don\'t move',
+        'Use cover when fighting Turrets to avoid sustained fire',
+        'Hornets fly - use automatic weapons or shotguns',
+        'Fireballs are close-range threats, keep distance',
+        'Completing this unlocks the Cheer Emote'
+      ]
     },
     {
       id: 'ml-4',
@@ -733,7 +946,22 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Search for a hatch key near the Raider hatch'
       ],
       rewards: ['1x Raider Hatch Key', '1x Binoculars'],
-      category: 'repair'
+      category: 'repair',
+      guideSteps: [
+        'Locate a Raider Hatch on any map (underground entrance)',
+        'Find the leaking hydraulic pipes near the hatch',
+        'Interact with the pipes to repair them (may need materials)',
+        'Search the immediate area around the hatch',
+        'Look for a hatch key in containers or on the ground nearby',
+        'Collect the key to complete the quest'
+      ],
+      tips: [
+        'Raider Hatches are marked on your map',
+        'Keys are usually within 50 meters of the hatch',
+        'Check inside nearby buildings and containers',
+        'The key reward lets you access more Raider Hatches',
+        'Binoculars are useful for scouting'
+      ]
     },
     {
       id: 'ml-5',
