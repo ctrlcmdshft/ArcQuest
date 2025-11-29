@@ -69,16 +69,18 @@ export const questsByLocation: Record<string, Quest[]> = {
       rewards: ['1x Tactical MK.1', '3x Adrenaline Shot'],
       category: 'collection',
       guideSteps: [
-    {
-      id: 'db-4',
-      name: 'Safe Passage',
-      location: 'Research and Administration Building, Dam Battlegrounds',
-      objectives: [
-        'Destroy 2 ARC enemies using any explosive grenade'
+        'Navigate to the Research and Admin Building in Dam Battlegrounds',
+        'Search containers, desks, and shelves for Wires',
+        'Look for electronics and electrical equipment for Batteries',
+        'Check multiple floors and rooms to find all 6 Wires and 1 Battery',
+        'Wires are commonly found in electrical boxes and toolboxes'
       ],
-      rewards: ['5x Li\'l Smoke Grenade', '3x Shrapnel Grenade', '3x Barricade Kit'],
-      category: 'combat',
-      guideSteps: [
+      tips: [
+        'Wires are common crafting materials found in most buildings',
+        'Batteries are often in electronics, radios, and flashlights',
+        'Check the upper floors for less looted areas'
+      ]
+    },
     {
       id: 'db-5',
       name: 'The Trifecta',
@@ -127,8 +129,28 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Fireballs are common ARC enemies that drop the burner',
         'Any ARC enemy counts for the kill, pick an easy target like a Wasp'
       ]
-    },rewards: ['5x Li\'l Smoke Grenade', '3x Shrapnel Grenade', '3x Barricade Kit'],
-      category: 'combat'
+    },
+    {
+      id: 'db-4',
+      name: 'Safe Passage',
+      location: 'Research and Administration Building, Dam Battlegrounds',
+      objectives: [
+        'Destroy 2 ARC enemies using any explosive grenade'
+      ],
+      rewards: ['5x Li\'l Smoke Grenade', '3x Shrapnel Grenade', '3x Barricade Kit'],
+      category: 'combat',
+      guideSteps: [
+        'Equip explosive grenades (Shrapnel, Blaze, or Heavy Fuze)',
+        'Find ARC enemies near the Research and Administration Building',
+        'Throw grenades at ARC enemies to destroy them',
+        'Make sure the final blow comes from the grenade explosion',
+        'Repeat for 2 total kills with explosive grenades'
+      ],
+      tips: [
+        'Weaken enemies with gunfire first, then finish with grenade',
+        'Stationary enemies like Turrets are easy grenade targets',
+        'You can craft grenades or find them in supply containers'
+      ]
     },
     {
       id: 'db-5',
