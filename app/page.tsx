@@ -192,6 +192,23 @@ export default function Home() {
 
                     <p className="text-sm text-gray-400 mb-3">📍 {quest.location}</p>
 
+                    {/* Required Items */}
+                    {quest.requiredItems && quest.requiredItems.length > 0 && (
+                      <div className="mb-3 p-2 bg-orange-900/20 border border-orange-500/30 rounded">
+                        <h4 className="text-sm font-semibold text-orange-400 mb-1 flex items-center gap-2">
+                          <span>🎒</span> Required Items:
+                        </h4>
+                        <ul className="space-y-1">
+                          {quest.requiredItems.map((item, idx) => (
+                            <li key={idx} className="text-sm text-orange-300 flex items-center gap-2 ml-6">
+                              <span className="text-orange-500">▪</span>
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
                     {/* Objectives */}
                     <div className="mb-3">
                       <h4 className="text-sm font-semibold text-gray-300 mb-2">Objectives:</h4>
@@ -272,7 +289,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-black/40 border-t border-gray-700 py-6 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400 text-sm">
-          <p>ARC Raiders Quest Tracker v1.4.0 • {totalQuests} Total Quests</p>
+          <p>ARC Raiders Quest Tracker v1.4.1 • {totalQuests} Total Quests</p>
           <p className="mt-2">Data sources: <a href="https://arcraiders.wiki/wiki/Quests" className="text-orange-400 hover:text-orange-300" target="_blank" rel="noopener noreferrer">ARC Raiders Wiki</a> • <a href="https://patchcrazy.co.uk/all-arc-raiders-quest-list-rewards-objectives-and-locations/" className="text-orange-400 hover:text-orange-300 ml-2" target="_blank" rel="noopener noreferrer">PatchCrazy.co.uk</a></p>
           <p className="mt-1 text-gray-500 text-xs">Last updated: November 29, 2025</p>
         </div>

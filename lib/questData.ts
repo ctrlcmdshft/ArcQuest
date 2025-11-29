@@ -8,6 +8,7 @@ export interface Quest {
   guideUrl?: string;
   guideSteps?: string[];
   tips?: string[];
+  requiredItems?: string[];
 }
 
 // All quests in quest tree progression order (matching official quest tree)
@@ -599,6 +600,7 @@ export const allQuests: Quest[] = [
     ],
     rewards: ['1x Extended Shotgun Mag II', '1x Extended Medium Mag II'],
     category: 'repair',
+    requiredItems: ['3x Wires'],
     guideSteps: [
       'Obtain 3 Wires before starting',
       'Deploy to Buried City, Old Town area',
@@ -802,6 +804,7 @@ export const allQuests: Quest[] = [
     ],
     rewards: ['5x Blue Light Stick', '3x Antiseptic', '5x Durable Cloth'],
     category: 'repair',
+    requiredItems: ['5x Wires', '2x Batteries'],
     guideSteps: [
       'Obtain 5 Wires and 2 Batteries before starting',
       'Deploy to Buried City',
