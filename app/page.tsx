@@ -69,7 +69,7 @@ export default function Home() {
       <header className="bg-black/40 backdrop-blur-sm border-b border-orange-500/30 sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <h1 className="text-4xl font-bold text-orange-400 mb-2">ARC Raiders Quest Tracker</h1>
-          <p className="text-gray-400">Track your progress through all 63 quests</p>
+          <p className="text-gray-400">Track your progress through all 66 quests</p>
           
           {/* Progress Bar */}
           <div className="mt-4">

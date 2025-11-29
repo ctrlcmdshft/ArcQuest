@@ -1105,6 +1105,7 @@ export const allQuests: Quest[] = [
     ],
     rewards: ['Radio Renegade (Outfit - Helmet)', '5x Medium Gun Parts', '3x Advanced Mechanical Components'],
     category: 'repair',
+    requiredItems: ['4x Wires'],
     guideSteps: [
       'Navigate to the Power Generation Complex near The Dam',
       'Enter the building and locate the Generator Room',
