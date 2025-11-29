@@ -91,7 +91,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Destroy a Wasp',
         'Get a Wasp Driver for Shani'
       ],
-      rewards: ['1x Dam Control Tower Key', '2x Defibrillator', '1x Raider Hatch Key'],
+      rewards: ['Skin Orange Camo (Origin Colour)', '1x Raider Hatch Key', '2x Defibrillator', '1x Dam Control Tower Key'],
       category: 'combat',
       guideSteps: [
         'Head to the Testing Annex building in Dam Battlegrounds',
@@ -241,7 +241,9 @@ export const questsByLocation: Record<string, Quest[]> = {
       name: 'Keeping the Memory',
       location: 'Formical Hills, Dam Battlegrounds',
       objectives: [
-        'Reach the wreckage in the Formicai Hills'
+        'Reach the wreckage in the Formicai Hills',
+        'Search for the missing helmet',
+        'Return the helmet to the memorial'
       ],
       rewards: ['5x Simple Gun Parts', '5x Duct Tape', '5x Magnet'],
       category: 'exploration'
@@ -267,7 +269,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Locate the flag at the Formicai Outpost',
         'Hoist the flag on the small platform overlooking the red lake'
       ],
-      rewards: ['3x Mod Components', '5x Duct Tape'],
+      rewards: ['Aviator (Outfit)', '3x Mod Components', '5x Duct Tape'],
       category: 'other'
     },
     {
@@ -338,7 +340,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Find and interact with the Power Switch',
         'Complete the antenna installation on the roof'
       ],
-      rewards: ['1x Buried City Town Hall Key', '1x Raider Hatch Key', '1x Jolt Mine'],
+      rewards: ['Buried City Town Hall Key', 'Raider Hatch Key', '3x Jolt Mine'],
       category: 'repair'
     },
     {
@@ -384,7 +386,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Destroy a Leaper',
         'Obtain a Leaper Pulse Unit'
       ],
-      rewards: ['1x Radio Renegade (cosmetic)', '1x Burgerboy (cosmetic)', '1x Vulcano III', '40x Shotgun Ammo'],
+      rewards: ['Outfit (Radio Renegade)', 'Backpack Charm (Burger Boy)', '1x Vulcano III', '40x Shotgun Ammo'],
       category: 'combat',
       guideSteps: [
         'Navigate to the Research & Administration Building',
@@ -417,12 +419,13 @@ export const questsByLocation: Record<string, Quest[]> = {
       name: 'Flickering Threat',
       location: 'North Complex Elevator, Dam Battlegrounds',
       objectives: [
+        'Enter the Power Generation Complex by The Dam',
         'Find the Generator Room',
         'Repair the Generator',
         'Find the Ventilation Shaft',
         'Enable the power via the power switch underneath the stairs'
       ],
-      rewards: ['5x Medium Gun Parts', '3x Advanced Mechanical Components'],
+      rewards: ['Radio Renegade (Outfit - Helmet)', '5x Medium Gun Parts', '3x Advanced Mechanical Components'],
       category: 'repair'
     },
     {
@@ -473,7 +476,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Find the tunnels under the Spaceport',
         'Find and turn the valve in the tunnels under Spaceport'
       ],
-      rewards: ['3x Synthesized Fuel'],
+      rewards: ['Radio Renegade (Outfit - Blue)', 'Spaceport Trench Tower Key', '3x Synthesized Fuel'],
       category: 'repair'
     },
     {
@@ -485,7 +488,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Find the Medical Exam Room inside the Departure Building',
         'Search for the records'
       ],
-      rewards: ['1x Heavy Shield', '1x Tactical Mk. 3 (Healing)'],
+      rewards: ['1x Heavy Shield', '1x Tactical Mk. 3 (Healing)', '3x Adrenaline Shot'],
       category: 'exploration'
     },
     {
@@ -495,10 +498,10 @@ export const questsByLocation: Record<string, Quest[]> = {
       objectives: [
         'Find the Electrical Substation south of the Spaceport, next to the Checkpoint',
         'Find any sign of the missing engineer',
-        'Carry the fuse/battery back to the Electrical Substation',
-        'Enable the power switch on the Fuse Box'
+        'Install the fuse',
+        'Restore the power'
       ],
-      rewards: ['5x Wires', '5x Explosive Compound', '5x Oil'],
+      rewards: ['Bag (Radio Renegade Variant)', '5x Wires', '5x Explosive Compound', '5x Oil'],
       category: 'repair'
     },
     {
@@ -611,9 +614,10 @@ export const questsByLocation: Record<string, Quest[]> = {
       location: 'Industrial Zone, Buried City',
       objectives: [
         'Find Tian Wen\'s weapon cache near the Gas Station in the Outskirts',
-        'Deliver the Burletta to the rival weapon cache'
+        'Deliver the Burletta to the rival weapon cache',
+        'Plant a bug on the weapon cache'
       ],
-      rewards: ['3x Mechanical Components', '3x Simple Gun Parts'],
+      rewards: ['Burletta Blueprint', '3x Mechanical Components', '3x Simple Gun Parts'],
       category: 'delivery'
     },
     {
@@ -628,7 +632,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Deliver a Water Pump to Tian Wen',
         'Deliver Fertilizer to Tian Wen'
       ],
-      rewards: ['1x IL Toro I', '1x Shotgun Choke II'],
+      rewards: ['1x Il Toro I', '40x Shotgun Ammo', '1x Shotgun Choke II'],
       category: 'delivery'
     },
     {
@@ -642,7 +646,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Enable the power on the Generator',
         'Boot the antenna terminal near the Red Tower'
       ],
-      rewards: ['1x Anvil III', '40x Heavy Ammo'],
+      rewards: ['Aviator (Outfit - Crimson Racer)', '1x Anvil III', '40x Heavy Ammo'],
       category: 'repair',
       guideSteps: [
         'Navigate to the Red Tower in Old Town, Buried City',
@@ -679,7 +683,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Search for the seed vault in the "room with a great view"',
         'Deliver the Experimental Seed Sample to Celeste'
       ],
-      rewards: ['3x Advanced Mechanical Components', '3x Heavy Gun Parts', '3x Canister'],
+      rewards: ['Succulent (Charm)', '1,000 Raider Coins', '3x Advanced Mechanical Components', '3x Heavy Gun Parts', '3x Canister'],
       category: 'delivery'
     },
     {
@@ -692,7 +696,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Follow the red markers',
         'Inspect the grave'
       ],
-      rewards: ['3x Noisemaker', '5x Blue Light Stick'],
+      rewards: ['Radio Renegade (Outfit - Goggles)', '3x Noisemaker', '5x Blue Light Stick', '1x Rosary'],
       category: 'exploration'
     },
     {
@@ -742,7 +746,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Find 1 adventure book',
         'Deliver 3 books to Apollo'
       ],
-      rewards: ['1x Jolt Mine', '1x Heavy Fuze Grenade'],
+      rewards: ['Buried City Town Hall Key'],
       category: 'delivery'
     }
   ],
@@ -779,9 +783,11 @@ export const questsByLocation: Record<string, Quest[]> = {
       location: 'Barren Clearing, Blue Gate',
       objectives: [
         'Reach the Barren Clearing',
-        'Find signs of who brought down the ARC machines'
+        'Find signs of who brought down the ARC machines',
+        'Inspect the Adorned Wreckage',
+        'Inspect the communications device'
       ],
-      rewards: ['1x Medium Shield'],
+      rewards: ['1x Looting Mk. 2', '1x Medium Shield'],
       category: 'exploration'
     },
     {
@@ -818,7 +824,7 @@ export const questsByLocation: Record<string, Quest[]> = {
         'Reach the Traffic Tunnel near the Blue Gate Checkpoint',
         'Find and unlock the rear door of an armored patrol car'
       ],
-      rewards: ['3x Smoke Grenade', '3x Defibrillator'],
+      rewards: ['Blue Yellow (Aviator Color)', '3x Smoke Grenade', '3x Defibrillator'],
       category: 'exploration'
     }
   ],
@@ -1037,7 +1043,7 @@ export const questsByLocation: Record<string, Quest[]> = {
       objectives: [
         'Get a Power Rod for Celeste'
       ],
-      rewards: ['5x Magnet', '2x Advanced Mechanical Components', '3x Synthesized Fuel'],
+      rewards: ['Dam Staff Room Key'],
       category: 'collection'
     }
   ]
