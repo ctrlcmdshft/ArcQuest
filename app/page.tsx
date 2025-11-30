@@ -22,6 +22,7 @@ export default function Home() {
       try {
         const questIds = sharedQuests.split(',').filter(id => id);
         setCompletedQuests(new Set(questIds));
+        setHideCompleted(true); // Auto-enable hide completed for shared links
       } catch (e) {
         console.error('Failed to parse shared quests:', e);
       }
